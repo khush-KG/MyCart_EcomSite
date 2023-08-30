@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); 
+
+:root{
+    --main-bg-color:#2874f0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* background-color: black; */
+    background-color: var(--main-bg-color);
+    /* width: 100vw; */
+    /* height:12vh; */
+    /* height: 50px; */
+    /* border:2px solid red; */
+    font-family: 'Raleway', sans-serif;
+
+    /* display: flex; */
+    /* align-items: center; Tihs can also be done to vertically center the ul */
+
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0px 23px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+
+    align-items: center; /* used to vertically center the ul */
+    height: 50px; /* used to vertically center the ul */
+
+}
+nav ul li{
+    /* display: inline; */
+    list-style: none;
+    padding: 0px 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+nav .search{
+    display: flex;
+    align-items: center;
+}
+nav .search input{
+    width:35vw;
+    height:5vh;
+    border-radius: 3px;
+    border: 2px solid white;
+    margin: 0 5px 0 10px;
+    padding: 0 10px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.search .btn{
+    font-family: 'Raleway', sans-serif;
+}
+.search .btn:hover{
+    font-weight: bolder;
+    border-width: 3px;
+}
+.container{
+    min-height: calc(100vh - 50px - 12vh);
+}
+.slider {
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+.card{
+    width: 80vw;
+    margin: 15px auto;
+    padding: 1vh 1vw;
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    /* display: flex;
+    flex-direction: row; */
+
+}
+.card h2{
+    margin-left: 3vw;
+    font-family: 'Raleway', sans-serif;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-item{
+    width: 12vw;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1.75vw;
+}
+/* .card .lines p{
+    text-align: center;
+} */
+footer{
+    /* background-color: black; */
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    font-family: 'Raleway', sans-serif;
+}

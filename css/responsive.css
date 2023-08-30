@@ -1,0 +1,24 @@
+@media screen and (max-width:1000px){
+    /* body{
+        background-color: black;
+    } */
+    .logo{
+        justify-content: center;
+        margin:1vh
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav ul{
+        justify-content: center;
+        height: 4vh;
+    }
+    nav ul li{
+        padding: 0 5vw;
+    }
+    .search{
+        margin: 5px auto;
+        justify-content: center;
+    }
+}
